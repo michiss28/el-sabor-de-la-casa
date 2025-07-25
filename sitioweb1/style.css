@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e0e082;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0 20px;
+}
+
+.logo img{
+width: 200px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap:20px ;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    height: 70vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,  0.5 )),
+    url(images/restaurante.jpg) center/cover no-repeat;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero-content{
+    display: flex;
+   flex-direction: column; 
+   gap: 20px;
+   color: white;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content button{
+background-color: #C0C9EE;
+width: 180px;
+border: none;
+border-radius: 6px;
+font-size: 15px;
+height: 25px;
+font-weight: bold;
+}
